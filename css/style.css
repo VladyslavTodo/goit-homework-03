@@ -84,25 +84,21 @@ button {
   overflow: hidden;
 }
 
-.feature,
-.product,
-.team {
+.section {
   padding: 120px 0;
 }
 
 /*======= HEADER NAVIGATION ======*/
 
-.main-header {
-  padding: 24px 0;
-}
-
 .main-header-flex {
   display: flex;
+  align-items: center;
 }
 
 .header-nav {
   display: flex;
   gap: 76px;
+  align-items: center;
 }
 
 .nav-logo {
@@ -114,6 +110,8 @@ button {
   line-height: 1.333;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  padding: 24px 0;
 }
 
 .nav-logo span {
@@ -131,6 +129,8 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -154,6 +154,8 @@ button {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  padding: 24px 0;
 }
 
 /*=========== HERO =========*/
@@ -265,13 +267,16 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.team-info {
+  padding: 32px 16px;
+}
+
 .team-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -280,8 +285,6 @@ button {
   letter-spacing: 0.02em;
 
   color: var(--secondary-color);
-
-  margin-bottom: 32px;
 }
 
 /*=========== FOOTER=========*/
@@ -360,11 +363,10 @@ button {
 }
 
 .projects-border {
-  border-right: 1px solid #e7e9fc;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
 }
 
 .projects-name {
